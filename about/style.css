@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-inline: 25px;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo a {
+    letter-spacing: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.social-media .fa-brands {
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.social-media .fa-brands:hover {
+    transform: translateY(-2px);
+    margin-left: 20px;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #000;
+}
+
+.about .content img{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.text h1{
+    font-family: Klein;
+    font-size: 30px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+
+}
+
+.text h5{
+    padding-bottom: 10px;
+    font-family: Grava;
+    letter-spacing: 2px;
+    font-size: 16px;
+    position: relative;
+}
+.text h5::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+
+.text p{
+    margin-top: 20px;
+    font-family: ModernSans;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: Klein;
+    src: url(fonts/klein-text-light-maisfontes.2a0a/klein-text-light.otf);
+}
+
+@font-face {
+    font-family: Grava;
+    src: url(fonts/grava-extralight-maisfontes.34f0/grava-extralight.otf);
+}
+
+@font-face {
+    font-family: HarmoniaRegular;
+    src: url(fonts/Harmonia-Sans-Font/Harmonia\ Sans\ W01\ Regular.ttf);
+}
+
+@font-face {
+    font-family: GeoSansLight;
+    src: url(fonts/geo_sans_light/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: ModernSans;
+    src: url(fonts/modern_sans/ModernSans-Light.otf);
+}
