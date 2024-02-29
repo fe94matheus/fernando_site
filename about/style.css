@@ -41,6 +41,8 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: #000;
+
 }
 
 .content{
@@ -51,7 +53,6 @@
     align-items: center;
     justify-content: space-around;
     color: #fff;
-    background-color: #000;
 }
 
 .about .content img{
@@ -103,22 +104,3 @@
     src: url(fonts/klein-text-light-maisfontes.2a0a/klein-text-light.otf);
 }
 
-@font-face {
-    font-family: Grava;
-    src: url(fonts/grava-extralight-maisfontes.34f0/grava-extralight.otf);
-}
-
-@font-face {
-    font-family: HarmoniaRegular;
-    src: url(fonts/Harmonia-Sans-Font/Harmonia\ Sans\ W01\ Regular.ttf);
-}
-
-@font-face {
-    font-family: GeoSansLight;
-    src: url(fonts/geo_sans_light/GeosansLight.ttf);
-}
-
-@font-face {
-    font-family: ModernSans;
-    src: url(fonts/modern_sans/ModernSans-Light.otf);
-}
