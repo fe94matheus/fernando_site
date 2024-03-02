@@ -17,18 +17,19 @@
 /*----------------------------------header-------------------------------*/
 .header {
     width: 100%;
-    background-color: #000;
+    background-color: #fff;
     padding: 30px;
-    color: #fff;
+    color: #1a1a1a;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .home a {
-    letter-spacing: 15px;
+    letter-spacing: 8px;
     text-decoration: none;
-    color: #fff;
+    color: #1a1a1a;
+    font-family: Klein;
 }
 
 .social-media {
@@ -40,6 +41,7 @@
 .social-media .fa-brands {
     margin-left: 20px;
     transition: 0.5s;
+    color: #1a1a1a;
 }
 
 .social-media .fa-brands:hover {
@@ -47,11 +49,11 @@
     margin-left: 20px;
 }
 
-.container .header h3 {
-    font-family: Klein;
+.container .header h1 {
+    font-family: 'Zincothen';
     font-size: 25px;
     letter-spacing: 15px;
-    color: #fff;
+    color: #1a1a1a;
 }
 
 
@@ -78,18 +80,6 @@
     margin-bottom: 15px;
 }
 
-/*------------------footer------------------------------*/
-
-footer {
-    padding: 20px 0 10px 0;
-    width: 100%;
-}
-
-footer p {
-    font-family: 'Source Sans Pro';
-    font-size: 15px;
-}
-
 
 /*----------------------------------------------------------------------------*/
 
@@ -114,12 +104,3 @@ footer p {
     
 }
 
-@font-face {
-    font-family: Nugo;
-    src: url(fonts/nugo-sans-font/NugoSansLight-9YzoK.ttf);
-}
-
-@font-face {
-    font-family: Klein;
-    src: url(fonts/klein-text-light-maisfontes.2a0a/klein-text-light.otf);
-}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('SmoochSans-Thin.eot');
+    src: local('Smooch Sans Thin'), local('SmoochSans-Thin'),
+        url('SmoochSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SmoochSans-Thin.woff2') format('woff2'),
+        url('SmoochSans-Thin.woff') format('woff'),
+        url('SmoochSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

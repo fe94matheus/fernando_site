@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Klein;
+    src: url(../fonts/klein-text-light-maisfontes.2a0a/klein-text-light.otf);
+}
+
+
+@font-face {
+    font-family: Neou;
+    src: url(../fonts/Neou-Thin/Neou-Thin.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Neou;
+    src: url(../fonts/Neou-Thin/Neou-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bumbon;
+    src: url(../fonts/Bumbon/LDBumbon-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Bumbon;
+    src: url(../fonts/Bumbon/LDBumbon-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Bumbon;
+    src: url(../fonts/Bumbon/LDBumbon-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Bumbon;
+    src: url(../fonts/Bumbon/LDBumbon-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Westmount;
+    src: url(../fonts/Westmount/Westmount-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Westmount;
+    src: url(../fonts/Westmount/Westmount-ExtraBold.ttf);
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Westmount;
+    src: url(../fonts/Westmount/Westmount-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Westmount';
+    src: url('../fonts/Westmount/Westmount-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Westmount/Westmount-Light.woff2') format('woff2'),
+        url('../fonts/Westmount/Westmount-Light.woff') format('woff'),
+        url('../fonts/Westmount/Westmount-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Westmount';
+    src: url('../fonts/Westmount/Westmount-Outline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Westmount/Westmount-Outline.woff2') format('woff2'),
+        url('../fonts/Westmount/Westmount-Outline.woff') format('woff'),
+        url('../fonts/Westmount/Westmount-Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Westmount';
+    src: url('../fonts/Westmount/Westmount-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Westmount/Westmount-Bold.woff2') format('woff2'),
+        url('../fonts/Westmount/Westmount-Bold.woff') format('woff'),
+        url('../fonts/Westmount/Westmount-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zincothen';
+    src: url('../fonts/Zinco/ZincothenRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Zinco/ZincothenRegular.woff2') format('woff2'),
+        url('../fonts/Zinco/ZincothenRegular.woff') format('woff'),
+        url('../fonts/Zinco/ZincothenRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan/Spartan-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan/Spartan-Thin.woff2') format('woff2'),
+        url('../fonts/Spartan/Spartan-Thin.woff') format('woff'),
+        url('../fonts/Spartan/Spartan-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('../fonts/SomochSans/SmoochSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SomochSans/SmoochSans-Thin.woff2') format('woff2'),
+        url('../fonts/SomochSans/SmoochSans-Thin.woff') format('woff'),
+        url('../fonts/SomochSans/SmoochSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/SourceSans/SourceSans3-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceSans/SourceSans3-Italic.woff2') format('woff2'),
+        url('../fonts/SourceSans/SourceSans3-Italic.woff') format('woff'),
+        url('../fonts/SourceSans/SourceSans3-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/SourceSans/SourceSans3-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceSans/SourceSans3-Roman.woff2') format('woff2'),
+        url('../fonts/SourceSans/SourceSans3-Roman.woff') format('woff'),
+        url('../fonts/SourceSans/SourceSans3-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

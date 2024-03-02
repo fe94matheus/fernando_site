@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Zincothen';
+    src: url('ZincothenRegular.eot');
+    src: local('Zincothen'), local('ZincothenRegular'),
+        url('ZincothenRegular.eot?#iefix') format('embedded-opentype'),
+        url('ZincothenRegular.woff2') format('woff2'),
+        url('ZincothenRegular.woff') format('woff'),
+        url('ZincothenRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

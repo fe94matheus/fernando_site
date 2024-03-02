@@ -1,23 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header{
+.about {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.header {
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 15px;
     padding-inline: 25px;
-    background-color: #000;
-    color: #fff;
+    background-color: #f3f3f3;
+    color: #1a1a1a;
 }
 
 .home a {
-    letter-spacing: 15px;
+    letter-spacing: 8px;
     text-decoration: none;
-    color: #fff;
+    color: #1a1a1a;
+    font-family: Klein;
 }
 
 .social-media {
@@ -36,71 +46,74 @@
     margin-left: 20px;
 }
 
-.about{
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-
-}
-
-.content{
-    width: 100%;
-    margin: 0 auto;
+.content {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    color: #fff;
+    color: #1a1a1a;
+    margin: 0 20px;
 }
 
-.about .content img{
+img {
+    width: 30%;
     height: auto;
-    width: 600px;
-    max-width: 100%;
+    border-radius: 15px;
 }
 
-.text{
-    width: 550px;
-    max-width: 100%;
+.text {
     padding: 0 10px;
 }
 
-.text h1{
-    font-family: Klein;
+.text h1 {
+    font-family: 'Zincothen';
     font-size: 30px;
     padding-bottom: 15px;
     letter-spacing: 1px;
 
 }
 
-.text h5{
+.text h5 {
     padding-bottom: 10px;
-    font-family: Grava;
+    font-family: 'Zincothen';
     letter-spacing: 2px;
     font-size: 16px;
     position: relative;
 }
-.text h5::after{
+
+.text h5::after {
     content: "";
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: #1a1a1a;
     position: absolute;
     left: 0;
     bottom: -6px;
 }
 
 
-.text p{
+.text p {
     margin-top: 20px;
-    font-family: ModernSans;
+    font-family: 'Spartan';
     letter-spacing: 2px;
+    color: #000;
 }
 
-@font-face {
-    font-family: Klein;
-    src: url(fonts/klein-text-light-maisfontes.2a0a/klein-text-light.otf);
-}
+@media screen and (max-width: 600px) {
+    .header {
+        height: 5%; 
+    }
 
+    .content{
+        flex-direction: column;
+    }
+
+    .about .content img{
+        width: 100%;
+        height: auto;
+    }
+
+    .about .content .text{
+        width: 100%;
+        margin-top: 20px;
+    }   
+}
