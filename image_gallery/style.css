@@ -75,14 +75,14 @@
         width: 100%;
         flex-direction: column;
         justify-content: space-around;
-        clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path: circle(100px at 90% -10%);
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
         transition: all 1s ease-out;
         z-index: 1;
     }
     .nav ul.open{
-        clip-path: circle(2000px at 90% -10%);
-        -webkit-clip-path: circle(2000px at 90% -10%);
+        clip-path: circle(2000px at 90% -20%);
+        -webkit-clip-path: circle(2000px at 90% -20%);
     }
 
     .toggle {
