@@ -1,43 +1,9 @@
-images = document.querySelectorAll(".image");
-prev = document.getElementById("prev");
-next = document.getElementById("next");
+let menutoggle = document.querySelector('.toggle');
+let navlinks = document.querySelector('ul');
+let links = document.querySelector('ul li');
 
-
-let countImg = images.length;
-let imgActive = 0;
-
-
-
-next.onclick = function(){
-    imgActive += 1;
-    if(imgActive >= countImg)
-    {
-        imgActive = 0;
-    }
-    showImage();
+menutoggle.onclick = function () {
+    menutoggle.classList.toggle('active');
+    navlinks.classList.toggle('open');
 }
 
-prev.onclick = function(){
-    imgActive -= 1;
-    if(imgActive < 0)
-    {
-        imgActive = 4;
-    }
-    showImage();
-}
-
-let refreshInterval = setInterval(() => {
-    next.click();
-}, 5000)
-
-function showImage(){
-    let imgActiveOld = document.querySelector(".box-slider .slider .image.active");
-    imgActiveOld.classList.remove("active");
-
-    images[imgActive].classList.add("active");
-
-    clearInterval(refreshInterval);
-    refreshInterval = setInterval(() => {
-        next.click();
-    }, 5000)
-}
