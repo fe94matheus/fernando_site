@@ -37,7 +37,7 @@ nav ul a{
 
 .content {
     height: 90%;
-    padding-inline: 20px;
+    padding-inline: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,7 +66,7 @@ img {
 
 .text h5 {
     padding-bottom: 10px;
-    font-family: 'Zincothen';
+    font-family: 'Spartan';
     letter-spacing: 2px;
     font-size: 16px;
     position: relative;
